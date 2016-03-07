@@ -1,0 +1,173 @@
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>North Hollywood Spa</title>
+		<meta name="description" content="Play with the HOTTEST GUYS in Southern California!!! Check out our website for your FREE ADMISSION." />
+		<meta name="keywords" content="Hollywood Spa, North Hollywood Spa, bath, bathhouse, bath house, the valley, san fernando valley, los angeles, californa, gay, xxx, adult entertainment"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
+		<!--  Indicate adult content  -->
+		<meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
+		<!-- Canonical URL -->
+		<link rel="canonical" href="http://www.hollywoodspa.com/index.html" />
+		<!--  Various icon versions of the North Hollywood Spa logo -->
+		<link rel="apple-touch-icon" sizes="57x57" href="/test/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/test/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/test/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/test/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/test/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/test/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/test/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/test/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/test/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/test/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="/test/favicon-194x194.png" sizes="194x194">
+		<link rel="icon" type="image/png" href="/test/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="/test/android-chrome-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/test/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="/test/android-chrome-manifest.json">
+		<meta name="apple-mobile-web-app-title" content="North Hollywood Spa">
+		<meta name="application-name" content="North Hollywood Spa">
+		<meta name="msapplication-TileColor" content="#ffc40d">
+		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">		
+</head>
+<body onLoad="preloadImages('images/noho-logo-up.png');document.signupForm.EMAIL.focus();showFooter();" onResize="centerPopUps();">
+
+<!-- divs for debugging, these should be commented out or removed for production rollout -->
+<div id="debugMode" style="position: absolute; top: 30%; left: 90%; z-index: 5000;cursor: pointer; font-family: Helvetica, Arial, Sans-serif; font-size: 11px; background-color: FFFFFF;" onClick="toggleDebugMode();"></div>
+<div id="viewportDimensions" style="position: absolute; top: 20; z-index: 3000; left: 100px;background-color: FFFFFF;"></div>
+<div id="screenAdjustment" style="position: absolute; top: 20; z-index: 3000; left: 300px;background-color: FFFFFF;"></div>
+
+<div id="logo" style="position:absolute; height:30%; z-index:20; left: 2%; top: 2%;"><a href="#" onMouseOut="swapImgRestore()" onMouseOver="swapImage('logo','','images/noho-logo-over.png',1)"><img src="images/noho-logo-up.png" alt="North Hollywood Spa" name="logo" height="30%" border="0"></a></div>
+<div id="guy" style="position:absolute; height:95%; z-index:40; right: 1%; top: 10%;"><img src="images/new-valley-boy.png" height="95%" alt="Valley Boy"></div>
+<div id="trees"><img src="images/trees-cropped.png" height="100%" alt="Palm Trees"></div>
+
+<div id="menu" class="menu" style="position:absolute; height:3%; z-index:60; left: 2%; top: 15%;"> <a href="#" onClick="UpdateMenu('home');" id="home_option" style="font-weight: normal;" class="nav">HOME</a><br>
+  <a href="#" onClick="UpdateMenu('about');" id="about_option" class="nav">ABOUT</a><br>
+  <a href="#" onClick="UpdateMenu('directions');" id="directions_option" class="nav">DIRECTIONS</a><br>
+  <a href="#" onClick="UpdateMenu('slideshow');" id="slideshow_option" class="nav">SLIDESHOW</a><br>
+  <a href="#" onClick="UpdateMenu('events');" id="events_option" class="nav">EVENTS</a><br>
+  <a href="#" onClick="UpdateMenu('24Cafe');" id="24cafe_option" class="nav">24CAFE</a><br>
+  <a href="#" onClick="UpdateMenu('safeSex');" id="safesex_option" class="nav">SAFESEX</a><br>
+  <a href="#" onClick="UpdateMenu('pricing');" id="pricing_option" class="nav">PRICING</a> 
+</div>
+
+<div id="freePassButton" class="freePassOpen" onClick="UpdateMenu('freePass');emailCheck();"><img src="images/free-pass-click-here.png" alt="Free Pass Click Here"></div>  
+
+<div id="lbOverlay"></div>
+
+<div id="popUpOne" class="popup"><img src="images/pop-up-one.gif" border="0" class="popUpImage" onLoad="centerPopUps();" alt="North Hollywood Spa Promo Pop-up"> 
+  <div id="closeOne" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="displayPopUp(2);"></div>
+</div>
+<div id="popUpTwo" class="popup"><img src="images/pop-up-two.gif" border="0" class="popUpImage" onLoad="centerPopUps();" alt="North Hollywood Spa Promo Pop-up"> 
+  <div id="closeTwo" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="displayPopUp();"></div>
+</div>
+<div id="popUpThree" class="popup"><img src="images/pop-up-three.jpg" border="0" class="popUpImage" onLoad="centerPopUps();" alt="North Hollywood Spa Promo Pop-up"> 
+  <div id="closeThree" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="displayPopUp();"></div>
+</div>
+<div id="popUpFour" class="popup"><img src="images/pop-up-four.jpg" border="0" class="popUpImage" onLoad="centerPopUps();" alt="North Hollywood Spa Promo Pop-up"> 
+  <div id="closeFour" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="displayPopUp();"></div>
+</div>
+
+<div id="home" class="feature"><img src="images/home.jpg" border="0" class="popUpImage" alt="North Hollywood Spa - we are always open, 24/7/365 at 5636 Vineland Avenue, North Hollywood, CA 91601 Call (818)760-6969"> 
+  <div id="closeHome" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="about" class="feature"><img src="images/about.jpg" border="0" class="popUpImage" alt="North Hollywood Spa About"> 
+  <div id="closeAbout" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="directions" class="feature"><img src="images/driving-map.jpg" border="0" class="popUpImage" alt="North Hollywood Spa Driving Map"> 
+  <div id="closeDrivingMap" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu('walkingMap');" alt="Close"></div>
+</div>
+<div id="walkingMap" class="feature"><img src="images/walking-map.jpg" border="0" class="popUpImage" alt="North Hollywood Spa Walking Map"> 
+  <div id="closeWalkingMap" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="slideshow" class="feature"><img src="images/slideshow.gif" border="0" class="popUpImage" alt="North Hollywood Spa Slideshow"> 
+  <div id="closeSlideshow" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="events" class="feature"><img src="images/events.gif" border="0" class="popUpImage" alt="North Hollywood Spa Events">
+ <div id="closeEvents" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="24Cafe" class="feature"><img src="images/24cafe.gif" border="0" class="popUpImage" alt="North Hollywood Spa Cafe">
+ <div id="close24Cafe" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="safeSex" class="feature"><img src="images/safesex.gif" border="0" class="popUpImage" alt="North Hollywood Spa Safe Sex"> 
+  <div id="closeSafeSex" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="pricing" class="feature"><img src="images/pricing.gif" border="0" class="popUpImage" alt="North Hollywood Spa Prices"> 
+  <div id="closePricing" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="history" class="feature"><img src="images/history.jpg" border="0" class="popUpImage" alt="North Hollywood Spa History"> 
+  <div id="closeHistory" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="mcSuccess" class="feature"><span id="mcSuccessImage"><img src="images/success-response.jpg" border="0" class="popUpImage" alt="North Hollywood Spa Mailing List Success"></span> 
+  <div id="closeSuccess" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+</div>
+<div id="mcFailure" class="feature"><span id="mcFailureImage"><img src="images/error-response.jpg" border="0" class="popUpImage" alt="North Hollywood Spa Mailing List Error"></span> 
+  <div id="closeFailure" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+  <div id="failMessage"></div>
+</div>
+<div id="freePass" class="feature">
+  <span id="freePassImage">
+    <img src="images/free-pass.jpg" id="freePassNarrow" border="0" class="popUpImage" alt="North Hollywood Spa Free Pass">
+	<img src="images/free-pass-red.jpg" id="freePassNarrowRed" border="0" class="popUpImage" style="display: none;" alt="North Hollywood Spa Free Pass">
+	<img src="images/free-pass-wide.jpg" id="freePassWide" border="0" class="popUpImage" alt="North Hollywood Spa Free Pass">
+	<img src="images/free-pass-wide-red.jpg" id="freePassWideRed" border="0" class="popUpImage" alt="North Hollywood Spa Free Pass">
+  </span> 
+  <div id="closeFreePass" class="popUpClose"><img src="images/spacer.gif" height="40" width="100" border="0" onClick="UpdateMenu();" alt="Close"></div>
+  <!-- Begin MailChimp Signup Form -->
+    <form action="http://hollywoodspa.us2.list-manage.com/subscribe/post?u=8478c16095a5e3a37464b3052&amp;id=8d7a1d0a43" method="post" id="mc-embedded-subscribe-form" name="signupForm" class="validate" onSubmit="afterSubmit();" novalidate>
+      <div id="mc_embed_signup_scroll"> 
+        <div id="mce-responses" class="clear" style="display: none; font-family: Helvetica, Arial, sans-serif;font-size: 90%;position: absolute; top: 40%; left: 10; background-color: #FFFFFF; padding: 5px 5px 5px 5px; border: 5px solid red;"> 
+          <div class="response" id="mce-error-response"></div>
+          <div class="response" id="mce-success-response"></div>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div id="emailone" onClick="setFocus('EMAIL');emailCheck();"> 
+            <input type="text" name="EMAIL" id="EMAIL" tabindex="1" onBlur="emailCheck();" onInput="emailCheck();">
+          </div>
+          <div id="emailtwo" onClick="setFocus('EMAIL2');emailCheck();"> 
+            <input type="text" name="EMAIL2" id="EMAIL2" tabindex="2" onBlur="emailCheck();" onInput="emailCheck();">
+          </div>          
+      	  <div id="mobilenumber" onClick="setFocus('phone');"> 
+           <input type="text" id="phone" value="OPTIONAL" tabindex="3" onFocus="if(this.value == 'OPTIONAL') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'OPTIONAL';}">
+      	  </div>
+          <div id="submitbutton" style="position:absolute; z-index:1; left: 6%; top: 82.5%; display: none;"> 
+            <input id="submit_button" type="image" src="images/submit-button.gif" style="width: 85%;" tabindex="4">
+          </div>
+        </div>
+        <div style="position: absolute; left: -5000px;"> 
+          <input type="text" name="b_8478c16095a5e3a37464b3052_8d7a1d0a43" tabindex="-1" value="">
+        </div>
+    </form>
+</div>  
+<!--<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>-->
+<script type='text/javascript' src='js/vendor/mc-validate.js'></script>
+<!--End mc_embed_signup-->
+
+<div id="footer-icons"><a href="easter-egg.html#logo"><img src="images/footer-noho-logo.png" height="80%" alt="North Hollywood Spa Logo"></a><a href="easter-egg.html#wifi"><img src="images/footer-wifi-logo.png" height="80%" alt="Wi-Fi Logo"></a><a href="https://www.facebook.com/pages/NORTH-HOLLYWOOD-SPA/185738668140696" target="_blank"><img src="images/footer-facebook-logo.png" height="80%" alt="Facebook Logo"></a><a href="#" onClick="UpdateMenu('history')"><img src="images/footer-hollywood-logo.png" height="80%" alt="Old Hollywood Spa Logo"></a></div>
+<div id="footer-address"><a href="https://www.google.com/maps/place/5636%2BVineland%2BAve,%2BNorth%2BHollywood,%2BCA%2B91601/@34.1732595,-118.3700327,17z/data=!4m7!1m4!3m3!1s0x80c295ecc9fdfe1d:0xb7284f3962ee4414!2s5636%2BVineland%2BAve,%2BNorth%2BHollywood,%2BCA%2B91601!3b1!3m1!1s0x80c295ecc9fdfe1d:0xb7284f3962ee4414" target="_blank"><img id="footer-address-image" src="images/address.png" alt="5636 Vineland Avenue, North Hollywood CA 91601  Toll Free 800 SPA CLUB" border="0"></a></div>
+<div id="footer-text" class="footer-text">&copy;2O16, NorthHollywoodSpa </div>
+
+        <!--  "Custom" styles particular to this web site/installation  -->
+		<link rel="stylesheet" href="css/custom.css">
+		<script src="js/vendor/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="js/vendor/verge.min.js" type="text/javascript"></script>
+		<script src="js/custom.min.js" type="text/javascript"></script>
+		
+<!--    Google Analytics    -->		
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62930243-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
